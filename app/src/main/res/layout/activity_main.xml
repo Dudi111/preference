@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+<EditText
+    android:id="@+id/etname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_rectangle_1"
+    android:hint="Enter first name"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/etlast"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ic_rectangle_1"
+        android:gravity="center"
+        android:hint="Enter Last name"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_1"
+        android:hint="Enter Email address"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp" />
+    <EditText
+        android:id="@+id/etnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_1"
+        android:hint="Enter Phone Number"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp" />
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"/>
+
+
+
+</LinearLayout>

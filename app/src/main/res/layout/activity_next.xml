@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".NextActivity">
+    <TextView
+        android:id="@+id/tvtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/tvtext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/tvtext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/etseat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_1"
+        android:layout_marginTop="25dp"
+        android:hint="no. of seats"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_1"
+        android:layout_marginTop="25dp"
+        android:hint="date of show"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btnbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book now"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"/>
+
+
+
+
+
+</LinearLayout>
